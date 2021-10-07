@@ -1,0 +1,39 @@
+
+.nav {
+    background-color: font.$blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    &__list {
+        list-style-type: none;
+        display: inline-flex;
+    }
+}
+
+.nav__logo {
+    font-family: font.$h-font;
+    font-size: 38px;
+    font-weight: bold;
+    color: #FFF4F1;
+}
+
+.nav__li {
+    font-family: font.$h-font;
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFF4F1;
+    margin: 10px;
+}
+
+a:link {
+    color: #FFF4F1;
+    text-decoration: none;
+}
+a:visited {
+    color: #FFC24B;
+}
+a:hover {
+    color: #fa6084;
+}
