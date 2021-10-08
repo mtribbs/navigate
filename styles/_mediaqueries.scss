@@ -42,8 +42,7 @@
     }
     #click:checked ~ .menu-btn {
         position:relative;
-        left: 82%;
-        bottom: 15%;
+        left: 60%; /*it stays on the same place on ipad, but otherwise it moved when active...*/
      }
 }
 
@@ -90,6 +89,6 @@
     }
     #click:checked ~ .menu-btn {
        position: relative;
-       left: 27%;
+       left: 24%;
     }
 }

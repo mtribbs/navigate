@@ -33,7 +33,7 @@
 
 .menu-btn {
   color: #FFF4F1;
-  font-size: 32px;
+  font-size: 42px;
   cursor: pointer;
   display: none;
 }
@@ -207,8 +207,8 @@ a:hover {
 
   #click:checked ~ .menu-btn {
     position: relative;
-    left: 82%;
-    bottom: 15%;
+    left: 60%;
+    /*it stays on the same place on ipad, but otherwise it moved when active...*/
   }
 }
 @media screen and (max-width: 600px) {
@@ -287,7 +287,7 @@ a:hover {
 
   #click:checked ~ .menu-btn {
     position: relative;
-    left: 27%;
+    left: 24%;
   }
 }
 body {
