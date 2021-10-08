@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9ea22a13b1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/styles/index.css">
     <title>Navigate</title>
 </head>
@@ -11,13 +12,19 @@
     <header>
         <nav class="nav">
             <h2 class="nav__logo">Space</h2>
-            <ul class="nav__list">
-                <li class="nav__li"><a href="#home">Home</a></li>
-                <li class="nav__li"><a href="#about">About</a></li>
-                <li class="nav__li"><a href="#services">Services</a></li>
-                <li class="nav__li"><a href="#pricing">Pricing</a></li>
-                <li class="nav__li"><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="resp-nav">
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn">
+                    <i class="fas fa-meteor"></i>
+                </label>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home">Home</a></li>
+                    <li class="nav__item"><a href="#about">About</a></li>
+                    <li class="nav__item"><a href="#services">Services</a></li>
+                    <li class="nav__item"><a href="#pricing">Pricing</a></li>
+                    <li class="nav__item"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -25,15 +32,15 @@
             <div class="card--intro" id="home">
                 <h1 class="title--intro">Navigate Space</h1>
                 <div class="card__img img--intro">
-                    <svg width="1002" height="926" viewbox="0 0 1002 926"> <!--width="902.41854" height="826.20679" viewbox="0 0 902.41854 826.20679"-->
+                    <svg width="auto" height="auto" viewbox="0 0 902 826"> <!--width="902.41854" height="826.20679" viewbox="0 0 902.41854 826.20679"-->
                         <use xlink:href="images/rocket.svg#rocket"></use>
                     </svg> 
                 </div>
             </div>
             <div class="container"></div>
-                <div class="card" id="about">
+                <div class="card card-one" id="about">
                     <div class="card__img">
-                        <svg width="853" height="818" viewbox="0 0 853 818"> <!--width="853.29744" height="818" viewbox="0 0 853.29744 818"-->
+                        <svg width="auto" height="auto" viewbox="0 0 853 818" > <!--width="853.29744" height="818" viewbox="0 0 853.29744 818"-->
                             <use xlink:href="images/launch.svg#launch"></use>
                         </svg> 
                     </div>
@@ -46,7 +53,7 @@
                             Integer vehicula condimentum lacus, vitae pulvinar diam dapibus ullamcorper.</p>
                     </div>
                 </div>
-                <div class="card" id="services">
+                <div class="card card-two" id="services">
                     <div class="card__info">
                         <h3 class="card__title">Navigate Space</h3>
                         <p class="card__text"> Suspendisse ornare venenatis dolor, eget dictum eros efficitur vel. Morbi eu pellentesque elit, eget mollis purus. 
@@ -55,14 +62,14 @@
                             Proin sed lacus et sapien condimentum finibus ac ac libero.</p>
                     </div>
                     <div class="card__img">
-                        <svg width="927" height="742" viewbox="0 0 927 742">
+                        <svg width="auto" height="auto" viewbox="0 0 927 742">
                             <use xlink:href="images/window.svg#window"></use>
                         </svg> 
                     </div>
                 </div>
-                <div class="card" id="pricing">
+                <div class="card card-three" id="pricing">
                     <div class="card__img">
-                        <svg width="926" height="749" viewbox="0 0 926 849">
+                        <svg width="auto" height="auto" viewbox="0 0 926 849">
                             <use xlink:href="images/moon.svg#moon"></use>
                         </svg> 
                     </div>
@@ -75,7 +82,7 @@
                             Integer vehicula condimentum lacus, vitae pulvinar diam dapibus ullamcorper.</p>
                     </div>
                 </div>
-                <div class="card" id="contact">
+                <div class="card card-four" id="contact">
                     <div class="card__info">
                         <h3 class="card__title">Navigate Space</h3>
                         <p class="card__text"> Suspendisse ornare venenatis dolor, eget dictum eros efficitur vel. Morbi eu pellentesque elit, eget mollis purus. 
@@ -84,7 +91,7 @@
                             Proin sed lacus et sapien condimentum finibus ac ac libero.</p>
                     </div>
                     <div class="card__img">
-                        <svg width="922" height="747" viewbox="0 0 922 747">
+                        <svg width="auto" height="auto" viewbox="0 0 922 747">
                             <use xlink:href="images/stars.svg#stars"></use>
                         </svg> 
                     </div>

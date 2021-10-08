@@ -6,6 +6,7 @@
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;
+    width: 100%;
     &__list {
         list-style-type: none;
         display: inline-flex;
@@ -17,11 +18,23 @@
     font-size: 38px;
     font-weight: bold;
     color: #FFF4F1;
+    margin: auto;
 }
 
-.nav__li {
+.menu-btn {
+    color: #FFF4F1;
+    font-size: 32px;
+    cursor: pointer;
+    display: none;
+}
+
+#click {
+    display: none;
+}
+
+.nav__item {
     font-family: font.$h-font;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: bold;
     color: #FFF4F1;
     margin: 10px;

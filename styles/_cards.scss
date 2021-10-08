@@ -21,15 +21,16 @@
 .card {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 50px;
 }
 
 .card__img {
-    margin: 10vh;
+    margin: 20px;
 }
 
 .card__info {
-    max-width: 50vh;
+    max-width: 50vw;
     font-size: 22px;
     line-height: 32px;
 }
