@@ -7,6 +7,8 @@
     align-items: center;
     min-height: 10vh;
     width: 100%;
+    position: fixed;
+    top: 0%;
     &__list {
         list-style-type: none;
         display: inline-flex;
@@ -18,7 +20,8 @@
     font-size: 38px;
     font-weight: bold;
     color: #FFF4F1;
-    margin: auto;
+    
+    
 }
 
 .menu-btn {
@@ -26,6 +29,9 @@
     font-size: 32px;
     cursor: pointer;
     display: none;
+    &:hover {
+        color: #fa6084;
+    }
 }
 
 #click {
